@@ -1,1 +1,178 @@
+* {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+}
+* .header_rates_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+* .header_rates_section header {
+  display: flex;
+  flex-direction: column;
+}
+* .header_rates_section header h1 {
+  color: purple;
+  font-size: 3rem;
+  font-weight: 900;
+}
+* .header_rates_section header p {
+  color: grey;
+  font-size: 1.2rem;
+}
+* .header_rates_section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 0;
+  margin-inline: 1rem;
+}
+* .header_rates_section ul li {
+  background-color: rgb(245, 225, 245);
+  list-style-type: none;
+  padding-inline: 1rem;
+  border-radius: 1rem;
+}
+* .header_rates_section ul li img {
+  width: 70%;
+}
+* .header_rates_section ul li p {
+  font-size: 1.2rem;
+  color: purple;
+  font-weight: 900;
+}
+* .customers ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 0;
+  margin-inline: 1rem;
+}
+* .customers ul li {
+  background: purple;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+* .customers ul li .customer_profile {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+* .customers ul li .customer_profile img {
+  clip-path: circle();
+  width: 20%;
+}
+* .customers ul li .customer_profile .customer_info .customer_name {
+  color: white;
+  margin-bottom: 0px;
+}
+* .customers ul li .customer_profile .customer_info .customer_status {
+  color: rgb(212, 141, 212);
+  margin-top: 0.2rem;
+}
+* .customers ul li p {
+  color: white;
+  text-align: left;
+}
 
+@media screen and (min-width: 480px) {
+  * {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+  }
+  * .header_rates_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 5rem;
+  }
+  * .header_rates_section header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+  }
+  * .header_rates_section header h1 {
+    color: purple;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+  }
+  * .header_rates_section header p {
+    color: grey;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  * .header_rates_section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0;
+    margin-inline: 1rem;
+  }
+  * .header_rates_section ul li {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 225, 245);
+    list-style-type: none;
+    border-radius: 1rem;
+    width: 60%;
+    gap: 2rem;
+  }
+  * .header_rates_section ul li .rating2 {
+    position: relative;
+  }
+  * .header_rates_section ul li img {
+    width: 30%;
+    text-align: left;
+  }
+  * .header_rates_section ul li p {
+    font-size: 1.2rem;
+    color: purple;
+    font-weight: 900;
+    text-align: right;
+  }
+  * .customers ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 0;
+    margin-inline: 1rem;
+  }
+  * .customers ul li {
+    background: purple;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  * .customers ul li .customer_profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  * .customers ul li .customer_profile img {
+    clip-path: circle();
+    width: 20%;
+  }
+  * .customers ul li .customer_profile .customer_info .customer_name {
+    color: white;
+    margin-bottom: 0px;
+  }
+  * .customers ul li .customer_profile .customer_info .customer_status {
+    color: rgb(212, 141, 212);
+    margin-top: 0.2rem;
+  }
+  * .customers ul li p {
+    color: white;
+    text-align: left;
+  }
+}
